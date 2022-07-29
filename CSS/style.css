@@ -28,6 +28,8 @@ body{
     border-radius: 4px;
     text-transform: uppercase;
     text-align: center;
+    overflow: scroll;
+    height: 500px;
 }
 
 .title-box{
@@ -56,6 +58,7 @@ body{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 .match-tile{
     position: relative;
