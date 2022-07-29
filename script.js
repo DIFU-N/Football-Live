@@ -55,11 +55,11 @@ const options = {
 	}
 };
 
-fetch('https://api-football-beta.p.rapidapi.com/timezone', 
+fetch('https://api.football-data.org/v4/matches', 
 {
     "method": "GET",
     "headers": {
-        'X-RapidAPI-Host': 'api-football-beta.p.rapidapi.com',
+        'X-RapidAPI-Host': 'api.football-data.org',
         'X-RapidAPI-Key': ''
     }
 })
